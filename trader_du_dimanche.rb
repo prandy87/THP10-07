@@ -1,3 +1,5 @@
+
+
 def trader_du_dimanche(tab)
 				
     tab_resultats = Hash.new
