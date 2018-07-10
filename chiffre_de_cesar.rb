@@ -19,7 +19,7 @@ def chiffre_de_cesar(str, n)
     while str[i] do 
         if is_letter(str[i]) == 0 
             if is_upper(str[i])
-                tmp[i] = ((str[i].ord) + n - 26).chr
+                tmp[i] = ((str[i].ord) + n - 26).chr     #or use .rotate
             else
                 tmp[i] = ((str[i].ord) + n % 26).chr
             end
